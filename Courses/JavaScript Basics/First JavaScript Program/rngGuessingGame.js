@@ -1,6 +1,8 @@
 // JavaScript source code
-const upperBound = 6;
+const upperBound = 10;
+
 var correctGuess = false; 
+
 const randomNumber = Math.floor(upperBound * Math.random()) + 1;
 
 const guess = prompt("I'm thinking of a random number between 1 and " + upperBound + ". What is it?")

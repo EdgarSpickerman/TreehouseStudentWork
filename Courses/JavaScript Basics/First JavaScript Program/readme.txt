@@ -28,6 +28,6 @@ Concepts Learned
 	JavaScript Math
 	creating randomness
 	Conditional Logic / Data Validation
-	equality/comparison/not operators
+	equality / comparison / not / && / || operators
 	booleans
 	comments
