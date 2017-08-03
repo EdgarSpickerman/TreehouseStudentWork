@@ -32,3 +32,4 @@ Concepts Learned
 	booleans
 	comments
 	functions/ function expressions / return a Value
+	passing parameters to functions
