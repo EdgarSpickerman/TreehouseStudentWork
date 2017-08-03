@@ -30,3 +30,4 @@ Concepts Learned
 	Conditional Logic / Data Validation
 	equality/comparison/not operators
 	booleans
+	comments
