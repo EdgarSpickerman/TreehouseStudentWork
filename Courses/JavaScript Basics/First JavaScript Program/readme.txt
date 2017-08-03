@@ -31,3 +31,5 @@ Concepts Learned
 	equality / comparison / not / && / || operators
 	booleans
 	comments
+	functions
+	function expression
