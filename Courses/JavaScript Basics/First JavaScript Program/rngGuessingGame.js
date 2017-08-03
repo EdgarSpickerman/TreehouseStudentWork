@@ -7,7 +7,19 @@ const guess = prompt("I'm thinking of a random number between 1 and " + upperBou
 
 if (parseInt(guess) === randomNumber) {
     correctGuess = true;
-}
+} else if (parseInt(guess) < randomNumber) {
+    const guessMore = prompt("Try again. The number I am thinking is higher.")
+
+    if (parseInt(guessMore) === randomNumber) {
+        correctGuess = true;
+    } 
+} else if (parseInt(guess) > randomNumber) {
+    const guessLess = prompt("Try again. The number I am thinking is lower.")
+
+    if (parseInt(guessLess) === randomNumber) {
+        correctGuess = true;
+    }
+} 
 
 if (correctGuess) {
     document.write("Way to go that's right.");
