@@ -19,6 +19,3 @@ while (guess !== randomNumber) {
 }
 
 document.write("<p>The random number was " + randomNumber + ".</p><p> It took the computer " + attempts+ "attempts to guess correctly.</p>");
-
-print the random number and the number of times it took to guess it
-
