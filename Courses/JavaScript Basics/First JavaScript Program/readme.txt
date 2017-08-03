@@ -29,3 +29,4 @@ Concepts Learned
 	creating randomness
 	Conditional Logic / Data Validation
 	equality/comparison/not operators
+	booleans
