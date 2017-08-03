@@ -1,6 +1,7 @@
 
 concepts
 	DRY Programming
+		refactor
 	flags
 	loops
 		while loops
