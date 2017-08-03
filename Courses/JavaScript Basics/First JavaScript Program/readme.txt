@@ -33,3 +33,4 @@ Concepts Learned
 	comments
 	functions/ function expressions / return a Value
 	passing parameters to functions
+	scope
