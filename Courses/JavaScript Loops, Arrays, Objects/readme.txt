@@ -26,3 +26,5 @@ concepts
 		key value pairs
 			alert(obj[key]) or alert(obj.key)
 			adding prop is obj.newKey = newValue
+			for in loops
+				for(prop in obj){}
