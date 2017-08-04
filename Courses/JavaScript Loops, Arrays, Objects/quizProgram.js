@@ -1,10 +1,25 @@
 // JavaScript source code
 var questionAnswer = [
-    ['What is 1+1', 2],
-    ['What is 2+2', 4],
-    ['What is 3+3', 6],
-    ['What is 4+4', 8],
-    ['What is 5+5', 10]
+    {
+        question: 'What is 1 + 1',
+        answer: 2
+    },
+    {
+        question: 'What is 2 + 2',
+        answer: 4
+    },
+    {
+        question: 'What is 3 + 3',
+        answer: 6
+    },
+    {
+        question: 'What is 4 + 4',
+        answer: 8
+    },
+    {
+        question: 'What is 5 + 5',
+        answer: 10
+    }
 ];
 
 var correctQuestion = [];
@@ -33,12 +48,12 @@ function htmlString(array) {
 }
 
 for (var i = 0; i < questionAnswer.length; i++) {
-    var answer = parseInt(prompt(questionAnswer[i][0]));
-    if (answer === questionAnswer[i][1]) {
-        correctQuestion.push(questionAnswer[i][0]);
+    var answer = parseInt(prompt(questionAnswer[i].question));
+    if (answer === questionAnswer[i].answer) {
+        correctQuestion.push(questionAnswer[i].question);
         correct += 1;
     } else {
-        wrongQuestion.push(questionAnswer[i][0]);    
+        wrongQuestion.push(questionAnswer[i].question);    
     }
 }
 
