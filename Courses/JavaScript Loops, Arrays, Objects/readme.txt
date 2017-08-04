@@ -20,3 +20,5 @@ concepts
 		arr.join(",") comma seprated join
 		arr.concat(arr2) joins arrays without changing each one
 		arr.indexOf() searchs and returns -1 if isnt in the array
+	2-dimensional arrays
+		
