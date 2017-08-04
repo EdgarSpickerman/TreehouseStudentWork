@@ -28,3 +28,5 @@ concepts
 			adding prop is obj.newKey = newValue
 			for in loops
 				for(prop in obj){}
+				overloaded console.log(":", obj[prop]) prop or key
+
