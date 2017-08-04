@@ -24,3 +24,5 @@ concepts
 	objects
 		{}; object literal
 		key value pairs
+			alert(obj[key]) or alert(obj.key)
+			adding prop is obj.newKey = newValue
