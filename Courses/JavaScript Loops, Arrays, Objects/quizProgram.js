@@ -1,25 +1,10 @@
 // JavaScript source code
 var questionAnswer = [
-    {
-        question: 'What is 1 + 1',
-        answer: 2
-    },
-    {
-        question: 'What is 2 + 2',
-        answer: 4
-    },
-    {
-        question: 'What is 3 + 3',
-        answer: 6
-    },
-    {
-        question: 'What is 4 + 4',
-        answer: 8
-    },
-    {
-        question: 'What is 5 + 5',
-        answer: 10
-    }
+    { question: 'What is 1 + 1', answer: 2 },
+    { question: 'What is 2 + 2', answer: 4 },
+    { question: 'What is 3 + 3', answer: 6 },
+    { question: 'What is 4 + 4', answer: 8 },
+    { question: 'What is 5 + 4', answer: 9 }
 ];
 
 var correctQuestion = [];
