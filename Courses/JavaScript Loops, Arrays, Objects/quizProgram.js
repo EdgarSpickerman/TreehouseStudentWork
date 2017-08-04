@@ -15,6 +15,11 @@ var correct = 0;
 
 function print(message) {
     document.write(message);
+
+    /*  using the dom model
+        var outputDiv = document.getElementById('output') //using dom
+        outputDiv.innerHTML = message;
+    */
 }
 
 function htmlString(array) {
