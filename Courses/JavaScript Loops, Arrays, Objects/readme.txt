@@ -29,4 +29,5 @@ concepts
 			for in loops
 				for(prop in obj){}
 				overloaded console.log(":", obj[prop]) prop or key
-
+		JSON
+			
