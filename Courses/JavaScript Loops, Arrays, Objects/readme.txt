@@ -17,3 +17,6 @@ concepts
 		arr.pop() removes from the end and returns the item
 		arr.shift() removes from the begining and returns
 		arr.length
+		arr.join(",") comma seprated join
+		arr.concat(arr2) joins arrays without changing each one
+		arr.indexOf() searchs and returns -1 if isnt in the array
