@@ -21,4 +21,6 @@ concepts
 		arr.concat(arr2) joins arrays without changing each one
 		arr.indexOf() searchs and returns -1 if isnt in the array
 	2-dimensional arrays
-		
+	objects
+		{}; object literal
+		key value pairs
